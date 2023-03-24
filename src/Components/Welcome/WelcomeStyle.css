@@ -1,0 +1,37 @@
+.container-welcome{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+}
+.cover-text-welcome{
+    margin-top: -60px;
+    z-index: 3;
+    text-align: center;
+    flex-direction: column;
+}
+.title-welcome{
+    /* font-weight: 800; */
+    font-size: 35px;
+}
+.info-welcome{
+    margin-top: 20px;
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+}
+.line-blue-welcome{
+    width: 100px;
+    height: 5px;
+    margin-top: 30px;
+    background-color: #428ef8;
+}
+.cover-product-welcome{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+.container-offer{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.681);
+    flex-direction: column;
+}
+.father-box-offer{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-offer{
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-width: 200px;
+    max-width: 400px;
+}
+.box-offer > * {
+    margin-top: 20px;
+}
+.gray-box-offer{
+    background-color: rgb(230, 230, 230) !important;
+}
+.icon-box-offer{
+    width: 60px;
+    height: 60px;
+}
+.title-box-offer{
+    font-weight: 400;
+    color: rgb(36, 36, 36);
+}
+.info-box-offer{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+}
